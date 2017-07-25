@@ -4,6 +4,7 @@
     "description": "Adds intellisense for node modules that utilise @providesModule.",
     "version": "0.1.0",
     "publisher": "bengsfort",
+    "icon": "./icon.png",
     "engines": {
         "vscode": "^1.13.0"
     },
