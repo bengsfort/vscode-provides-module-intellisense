@@ -1,7 +1,10 @@
 # Change Log
-All notable changes to the "provides-module-intellisense" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.2.0
 
-## [Unreleased]
-- Initial release
+- Added guard against intellisense popping up when ending an import statement
+- Increased max module cache
+
+## 0.1.0
+
+Initial release

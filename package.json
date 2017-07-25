@@ -2,9 +2,9 @@
     "name": "provides-module-intellisense",
     "displayName": "@providesModule Intellisense",
     "description": "Adds intellisense for node modules that utilise @providesModule.",
-    "version": "0.1.0",
+    "version": "0.4.0",
     "publisher": "bengsfort",
-    "icon": "./icon.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -18,10 +18,12 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.cacheModules",
-            "title": "providesModule Sense: Cache Modules"
-        }]
+        "commands": [
+            {
+                "command": "extension.cacheModules",
+                "title": "providesModule Sense: Cache Modules"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
